@@ -2,11 +2,11 @@
   src: url("./fonts/Inter-Regular.woff2") format("woff2");
 
   font-family: "Inter";
-  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
   src: url("./fonts/Inter-Black.woff2") format("woff2");
   font-family: "Inter";
-  font-style: bold;
+  font-weight: bold;
 }
