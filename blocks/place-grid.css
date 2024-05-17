@@ -219,17 +219,6 @@
 }
 
 @media screen and (max-width: 320px) {
-  .places {
-    position: relative;
-    display: grid;
-
-    grid-row-gap: 50px;
-    margin-top: 62px;
-    margin-bottom: 0;
-
-    max-width: 320px;
-  }
-
   .place-grid {
     max-width: 320px;
     grid-row-gap: 30px;
