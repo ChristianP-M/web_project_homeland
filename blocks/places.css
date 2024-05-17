@@ -1,7 +1,8 @@
 .places {
   position: relative;
   display: grid;
-  grid-column-gap: 80px;
+
+  grid-row-gap: 80px;
   margin: 92px auto 0;
 
   max-width: 987px;
@@ -53,17 +54,12 @@
 
 .place-grid__parrafos {
   display: grid;
+  grid-template-rows: auto;
   grid-row-gap: 25px;
-}
 
-.place-grid__parrafos_size_big {
   grid-column: 2 / 3;
   grid-row: 2 / -1;
 }
-
-/* .place-grid__parrafos_Criencieth-Gales {
-  max-height: 489px;
-} */
 
 .place-gird__parrafo {
   font-size: 18px;
@@ -91,4 +87,22 @@
 
 .place-grid__button:hover {
   opacity: 0.25;
+}
+
+@media screen and (max-width: 1280px) {
+  .place-grid__parrafos_Criencieth-Gales {
+    max-height: 489px;
+  }
+
+  .place-grid__parrafos_Berea-EE {
+    max-height: 460px;
+  }
+
+  .place-grid__parrafos_Muramvya {
+    max-width: 659px;
+  }
+
+  .place-grid__parrafos_Puebla {
+    max-width: 659px;
+  }
 }
