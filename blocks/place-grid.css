@@ -99,3 +99,172 @@
 .place-grid__button:hover::after {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 1280px) {
+  .place-grid__parrafos_Criencieth-Gales {
+    max-height: 489px;
+  }
+
+  .place-grid__parrafos_Berea-EE {
+    max-height: 460px;
+  }
+
+  .place-grid__parrafos_Muramvya {
+    max-width: 659px;
+  }
+
+  .place-grid__parrafos_Puebla {
+    max-width: 659px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin: 88px auto 0;
+    grid-row-gap: 72px;
+
+    max-width: 720px;
+  }
+
+  .place-grid {
+    grid-template-rows: auto 340px auto;
+
+    grid-column-gap: 28px;
+  }
+
+  .place-grid__title {
+    display: flex;
+    align-items: flex-end;
+    font-size: 42px;
+    line-height: 46px;
+
+    max-width: 340px;
+  }
+
+  .place-grid__website {
+    max-width: 352px;
+  }
+
+  .place-grid__image {
+    box-shadow: 10px 10px 25px black;
+
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .place-grid__parrafo {
+    font-size: 16px;
+    line-height: 163%;
+
+    max-width: 352px;
+    margin: 0;
+  }
+
+  .place-grid__parrafos_Criencieth-Gales {
+    max-height: 519px;
+  }
+
+  .place-grid__parrafos_Berea-EE {
+    max-height: 545px;
+  }
+
+  .place-grid__parrafos_Muramvya {
+    max-width: 752px;
+  }
+
+  .place-grid__parrafos_Puebla {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .place-grid__parrafos_Criencieth-Gales {
+    max-height: 100%;
+  }
+
+  .place-grid__parrafos_Berea-EE {
+    max-height: 100%;
+  }
+
+  .place-grid__parrafos_Muramvya {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .places {
+    position: relative;
+    display: grid;
+
+    grid-row-gap: 50px;
+    margin: 62px auto 0;
+
+    max-width: 320px;
+  }
+
+  .place-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+  }
+
+  .place-grid__parrafos {
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 25px;
+
+    grid-column: 1 / 1;
+    grid-row: 4 / 5;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    position: relative;
+    display: grid;
+
+    grid-row-gap: 50px;
+    margin-top: 62px;
+    margin-bottom: 0;
+
+    max-width: 320px;
+  }
+
+  .place-grid {
+    max-width: 320px;
+    grid-row-gap: 30px;
+  }
+
+  .place-grid__website {
+    max-width: 288px;
+    margin-left: 16px;
+  }
+
+  .place-grid__image {
+    box-shadow: 10px 10px 25px black;
+
+    width: 100%;
+    max-width: 320px;
+    object-fit: fill;
+  }
+
+  .place-grid__title {
+    font-size: 32px;
+    line-height: 35px;
+
+    max-width: 288px;
+    margin-left: 16px;
+  }
+
+  .place-grid__parrafo {
+    max-width: 288px;
+    margin: 0 auto 0;
+  }
+
+  .place-grid__button {
+    font-size: 14px;
+    margin: 0 auto 0;
+
+    max-width: 288px;
+  }
+}
